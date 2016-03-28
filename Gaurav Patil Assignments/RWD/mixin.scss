@@ -1,0 +1,20 @@
+@mixin setHeightWidth ($height,$width){
+	height: $height;
+	width: $width;
+}
+
+@mixin button{
+    background-color: $blue-color;
+    background-image: -webkit-linear-gradient(top, $blue-color, #2980b9);
+    border-color: $blue-color;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 8px 30px;
+    color: $white-color;
+    font-size: 16px;
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    box-shadow: none;
+    border-color: #085C72;
+}
