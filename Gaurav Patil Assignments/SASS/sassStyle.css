@@ -1,0 +1,205 @@
+body {
+  font-family: "robotolight"; }
+
+header {
+  font-family: "robotoregular"; }
+
+.nav-icons {
+  float: right;
+  margin-right: 80px;
+  font-size: 25px; }
+
+.upper_images {
+  overflow: hidden;
+  width: 93%;
+  padding-left: 90px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  box-shadow: 4px 10px 9px grey; }
+  .upper_images img {
+    display: inline-block; }
+
+.image1 {
+  height: 30%;
+  width: 30%; }
+
+.image2 {
+  height: 30%;
+  width: 69%;
+  margin-left: 8px; }
+
+.topNavigation {
+  font-family: "robotoregular";
+  font-size: 25px;
+  padding: 15px;
+  background: linear-gradient(to bottom, #FFFFFF, #E4E4DE); }
+  .topNavigation a {
+    color: grey;
+    margin-right: 60px;
+    text-decoration: none; }
+    .topNavigation a:hover {
+      color: #BE2720;
+      text-decoration: none; }
+
+.content {
+  clear: both;
+  float: left; }
+
+.search {
+  padding-top: 50px;
+  padding-left: 1000px;
+  border-color: red; }
+  .search a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px; }
+  .search input {
+    border-color: red;
+    color: red;
+    padding: 5px 8px; }
+  .search input[type=text] {
+    float: left; }
+  .search ul li {
+    list-style-type: none;
+    border-bottom-style: dashed;
+    border-bottom-width: 1.5px;
+    margin-left: -20px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    width: 78%; }
+  .search ul li a.resource-1:before {
+    content: " 1. "; }
+  .search ul li a.resource-2:before {
+    content: " 2. "; }
+  .search ul li a.resource-3:before {
+    content: " 3. "; }
+  .search ul li a.resource-4:before {
+    content: " 4. "; }
+  .search ul li a.resource-5:before {
+    content: " 5. "; }
+  .search ul li a.resource-6:before {
+    content: " 6. "; }
+  .search p {
+    height: 30px;
+    width: 66%;
+    padding-left: 30px;
+    color: #FFFFFF;
+    background-color: #B8B7B7; }
+
+button {
+  background-color: #085C81;
+  background-image: -webkit-linear-gradient(top, #085C81, #2980b9);
+  border-color: #085C81;
+  border-style: solid;
+  border-radius: 12px;
+  padding: 8px 30px;
+  color: #FFFFFF;
+  font-size: 16px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 20px;
+  box-shadow: none;
+  border-color: #085C72; }
+
+.meera {
+  color: #2E8C4E;
+  margin: 0; }
+
+.information {
+  height: 300px;
+  width: 790px;
+  padding-left: 60px;
+  font-size: 18px; }
+  .information h2 {
+    color: #BE2720;
+    font-size: 32px; }
+
+.images {
+  overflow: hidden;
+  display: inline-block; }
+  .images img {
+    padding: 0px 105px 10px;
+    border-radius: 50%;
+    height: 200px;
+    width: 220px;
+    transition: -webkit-filter 2s; }
+    .images img:hover {
+      -webkit-filter: grayscale(100%); }
+
+.articles {
+  display: inline-block;
+  padding-left: 245px; }
+  .articles label {
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    display: inline-table; }
+  .articles li a {
+    color: #8E8C8D;
+    display: inline-table; }
+  .articles h4 {
+    padding-bottom: 17px; }
+
+.contactUs {
+  display: inline-block;
+  padding-left: 200px; }
+  .contactUs li {
+    display: block; }
+  .contactUs li input {
+    float: right;
+    margin-right: 25px;
+    background-color: #C6C6C6;
+    border-radius: 6px;
+    border-width: 0;
+    padding: 7px 30px; }
+
+.contacts {
+  padding-left: 45px; }
+  .contacts li {
+    margin-top: 10px; }
+  .contacts label {
+    padding-right: 24px; }
+
+.bottomLinks {
+  overflow: hidden;
+  background-color: #58595B; }
+  .bottomLinks ul {
+    list-style-type: none;
+    color: #8E8C8D; }
+  .bottomLinks a:link {
+    text-decoration: none; }
+
+.services {
+  display: inline-block; }
+  .services label {
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    display: inline-table; }
+  .services li a {
+    color: #8E8C8D;
+    display: inline-table; }
+
+h4 {
+  color: #FFFFFF; }
+
+.fig {
+  padding-top: 120px;
+  display: inline-block; }
+  .fig p {
+    text-align: center; }
+
+footer {
+  text-align: center;
+  color: #8E8C8D;
+  font-size: 15px; }
+  footer p {
+    margin: 5px;
+    font-size: 20px; }
+    footer p else {
+      font-size: 10px; }
+  footer a {
+    color: #8E8C8D;
+    font-size: 12px; }
+
+/*# sourceMappingURL=sassStyle.css.map */
