@@ -1,13 +1,22 @@
 body {
-  font-family: "robotolight"; }
+  font-family: 'robotolight', Arial, sans-serif; }
+  @media only screen and (min-width: 901px) {
+    body {
+      background: #f4f4f4; } }
 
 header {
-  font-family: "robotoregular"; }
+  font-family: 'robotoregular', Arial, sans-serif; }
 
 .nav-icons {
   float: right;
   margin-right: 80px;
   font-size: 25px; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .nav-icons {
+      display: none; } }
+  @media only screen and (min-width: 501px) and (max-width: 900px) {
+    .nav-icons {
+      float: left; } }
 
 .upper_images {
   overflow: hidden;
@@ -18,6 +27,9 @@ header {
   box-shadow: 4px 10px 9px grey; }
   .upper_images img {
     display: inline-block; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .upper_images {
+      width: 100%; } }
 
 .image1 {
   height: 30%;
@@ -40,6 +52,12 @@ header {
     .topNavigation a:hover {
       color: #BE2720;
       text-decoration: none; }
+    @media only screen and (min-width: 320px) and (max-width: 500px) {
+      .topNavigation a {
+        font-size: 60%; } }
+    @media only screen and (min-width: 501px) and (max-width: 900px) {
+      .topNavigation a {
+        font-size: 70%; } }
 
 .content {
   clear: both;
@@ -49,6 +67,11 @@ header {
   padding-top: 50px;
   padding-left: 1000px;
   border-color: red; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .search {
+      float: left;
+      padding-top: 650px;
+      padding-left: 0; } }
   .search a {
     text-decoration: none;
     color: #000000;
@@ -113,10 +136,21 @@ button {
   .information h2 {
     color: #BE2720;
     font-size: 32px; }
+    @media only screen and (min-width: 320px) and (max-width: 500px) {
+      .information h2 {
+        color: green; } }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .information {
+      color: red;
+      float: left;
+      width: 90%; } }
 
 .images {
   overflow: hidden;
   display: inline-block; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .images {
+      padding-top: 160px; } }
   .images img {
     padding: 0px 105px 10px;
     border-radius: 50%;
@@ -129,6 +163,11 @@ button {
 .articles {
   display: inline-block;
   padding-left: 245px; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .articles {
+      float: left;
+      padding-left: 0;
+      width: 70%; } }
   .articles label {
     color: #FFFFFF;
     padding-bottom: 30px;
@@ -143,6 +182,10 @@ button {
 .contactUs {
   display: inline-block;
   padding-left: 200px; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    .contactUs {
+      float: left;
+      padding-left: 0; } }
   .contactUs li {
     display: block; }
   .contactUs li input {
@@ -193,11 +236,12 @@ footer {
   text-align: center;
   color: #8E8C8D;
   font-size: 15px; }
+  @media only screen and (min-width: 320px) and (max-width: 500px) {
+    footer {
+      float: left;
+      padding-left: 0; } }
   footer p {
-    margin: 5px;
-    font-size: 20px; }
-    footer p else {
-      font-size: 10px; }
+    margin: 5px; }
   footer a {
     color: #8E8C8D;
     font-size: 12px; }
